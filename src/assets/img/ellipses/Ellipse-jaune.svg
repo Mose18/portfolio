@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="383.801" height="461.153" viewBox="0 0 383.801 461.153">
+  <defs>
+    <filter id="Ellipse_jaune" x="0" y="0" width="383.801" height="461.153" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#ffed00"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ellipse_jaune-2" data-name="Ellipse jaune" transform="translate(30 20)">
+    <g transform="matrix(1, 0, 0, 1, -30, -20)" filter="url(#Ellipse_jaune)">
+      <g id="Ellipse_jaune-3" data-name="Ellipse jaune" transform="matrix(-0.89, 0.45, -0.45, -0.89, 353.8, 338.98)" fill="none" stroke="#ffed00" stroke-width="10" opacity="0.45">
+        <ellipse cx="90.5" cy="179" rx="90.5" ry="179" stroke="none"/>
+        <ellipse cx="90.5" cy="179" rx="85.5" ry="174" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
