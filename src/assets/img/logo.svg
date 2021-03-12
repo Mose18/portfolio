@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="723.837" height="151.425" viewBox="0 0 723.837 151.425">
+  <defs>
+    <filter id="Tracé_4" x="0" y="11.592" width="590.543" height="75.09" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ff00ec"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_5" x="15.265" y="34.722" width="269.275" height="116.703" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-color="#0df"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_6" x="135.153" y="64.447" width="588.684" height="73.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-color="#ef00ff"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_7" x="505.116" y="0" width="204.864" height="124.077" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-color="#0df"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Logo2" transform="translate(-33.235 -60.553)">
+    <text id="Moïse_Yombo" data-name="Moïse Yombo" transform="translate(84 92)" fill="#fff" font-size="80" font-family="NeonDesmonRegular, NeonDesmon"><tspan x="0" y="69">Moïse Yombo</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 33.23, 60.55)" filter="url(#Tracé_4)">
+      <path id="Tracé_4-2" data-name="Tracé 4" d="M-498.265-30.467v-44.59H61.778" transform="translate(513.77 97.15)" fill="none" stroke="#0df" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 33.23, 60.55)" filter="url(#Tracé_5)">
+      <path id="Tracé_5-2" data-name="Tracé 5" d="M-483-42.725v86.2h238.775" transform="translate(513.77 87.45)" fill="none" stroke="#ff00ec" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 33.23, 60.55)" filter="url(#Tracé_6)">
+      <path id="Tracé_6-2" data-name="Tracé 6" d="M-363.613,38.381H194.572v-43" transform="translate(513.77 79.07)" fill="none" stroke="#0df" stroke-width="1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 33.23, 60.55)" filter="url(#Tracé_7)">
+      <path id="Tracé_7-2" data-name="Tracé 7" d="M6.351-62.355H180.715V31.222" transform="translate(513.77 72.86)" fill="none" stroke="#ff00ec" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
