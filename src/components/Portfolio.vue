@@ -1,6 +1,7 @@
 <template>
   <div>
 
+    <router-link to="/" id="logo"><img src="../../src/assets/img/logo.svg" alt=""></router-link>
     <span class="rect-rond-g"></span>
     <router-link to="/"><img class="fleche-g" src="../assets/img/fleches/Fleche-g.svg" alt=""></router-link>
 
@@ -65,6 +66,14 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+
+#logo img{
+  position: absolute;
+  display: block;
+  z-index: 10;
+  width: 23vw;
+  top: -21vh;
 }
 
 h2{
@@ -239,6 +248,15 @@ h2{
     height: 110vh;
   }
 
+  #logo img{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: 40vw;
+    top: -1vh;
+    left: 4vw;
+  }
+
   .rect-rond-d, .rect-rond-g, .fond-fleche{
     display: none;
   }
@@ -323,6 +341,15 @@ h2{
 @media (min-width: 481px) and (max-width: 1024px) {
   .fond{
     height: 110vh;
+  }
+
+  #logo img{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: 40vw;
+    top: -6vh;
+    left: 4vw;
   }
 
   .rect-rond-d, .rect-rond-g, .fond-fleche{

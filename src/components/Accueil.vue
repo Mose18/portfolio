@@ -4,6 +4,8 @@
     <div class="header">
       <span class="rect-acc"></span>
     </div>
+    
+    <router-link to="/" id="logo"><img src="../../src/assets/img/logo.svg" alt=""></router-link>
 
     <h1>Bienvenue</h1>
 
@@ -46,6 +48,15 @@ export default {
   height: 79vh;
 }
 
+#logo img{
+  position: absolute;
+  display: block;
+  z-index: 10;
+  width: 30vw;
+  top: -18vh;
+  left: 2vw;
+}
+
 .fond{
   display: block;
   position: absolute;
@@ -59,8 +70,8 @@ export default {
 
 .rect-acc{  
   position: relative;
-  z-index: 9;
-  display: block;
+  z-index: 2;
+  display: none;
   margin: -13vh 0 0 0;
   width: 45vw;
   height: 13vh;
@@ -161,7 +172,16 @@ p{
   }
   .fond{
     padding-bottom: 10vh;
-}
+  }
+
+  #logo img{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: 40vw;
+    top: 0vh;
+    left: 4vw;
+  }
 
   .rect-rond-d, .rect-rond-g{
     display: none;
@@ -195,6 +215,15 @@ p{
   }
   .fond{
     padding-bottom: 10vh;
+  }
+
+  #logo img{
+    position: absolute;
+    display: block;
+    z-index: 10;
+    width: 40vw;
+    top: -6vh;
+    left: 4vw;
   }
 
   .rect-rond-d, .rect-rond-g{
